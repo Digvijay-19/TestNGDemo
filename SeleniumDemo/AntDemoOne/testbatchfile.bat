@@ -1,2 +1,2 @@
 cd D:\SeleniumDemo\AntDemoOne
-ant run
+ant generateXSLTReport
