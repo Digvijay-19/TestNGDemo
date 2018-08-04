@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9641" started-at="2018-08-04T18:01:38Z" finished-at="2018-08-04T18:01:47Z">
+  <suite name="ListenerDemoSuite" duration-ms="25913" started-at="2018-08-04T18:11:44Z" finished-at="2018-08-04T18:12:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9641" started-at="2018-08-04T18:01:38Z" finished-at="2018-08-04T18:01:47Z">
+    <test name="TestNGListenersDemo" duration-ms="25913" started-at="2018-08-04T18:11:44Z" finished-at="2018-08-04T18:12:10Z">
       <class name="com.TestNGListeners.FirstScript">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.TestNGListeners.FirstScript@f5e5e3]" name="setUp" duration-ms="9614" started-at="2018-08-04T23:31:38Z" finished-at="2018-08-04T23:31:47Z">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.TestNGListeners.FirstScript@34c75a]" name="setUp" duration-ms="25883" started-at="2018-08-04T23:41:44Z" finished-at="2018-08-04T23:42:10Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [#1 Free CRM software in the cloud for sales and servce] but found [#1 Free CRM software in the cloud for sales and service]]]>
@@ -51,6 +51,6 @@
           </reporter-output>
         </test-method> <!-- setUp -->
       </class> <!-- com.TestNGListeners.FirstScript -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- TestNGListenersDemo -->
+  </suite> <!-- ListenerDemoSuite -->
 </testng-results>

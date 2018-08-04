@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ListenerDemoSuite">
+
+<listeners>
+          <listener class-name = "com.TestNGListeners.TestNGListeners" />
+</listeners>
+
+
+
+  <test name="TestNGListenersDemo">
+  
+  
+
+    <classes>
+      <class name="com.TestNGListeners.FirstScript"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
