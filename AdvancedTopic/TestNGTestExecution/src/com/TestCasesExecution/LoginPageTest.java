@@ -47,7 +47,7 @@ public class LoginPageTest {
 		System.out.println("UserName of the CRM Page is --- " +password);
 		driver.findElement(By.name("username")).sendKeys(username);
 		driver.findElement(By.name("password")).sendKeys(password);
-		Thread.sleep(5000);
+		Thread.sleep(8000);
 		driver.findElement(By.xpath("//input[@type='submit' and @value ='Login']")).click();
 		String title = driver.getTitle();
 		Assert.assertEquals(title, "CRMPRO");
