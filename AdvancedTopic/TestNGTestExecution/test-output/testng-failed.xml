@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [ParamtersExecutionSuite]">
-  <parameter name="password" value="Bank$123"/>
-  <parameter name="title" value="#1 Free CRM software in the cloud for sales and service"/>
-  <parameter name="url" value="https://www.freecrm.com/index.html?e=2"/>
-  <parameter name="username" value="Iphone"/>
-  <test name="TestNGParamtersExecution(failed)">
-    <parameter name="password" value="Bank$123"/>
-    <parameter name="title" value="#1 Free CRM software in the cloud for sales and service"/>
-    <parameter name="url" value="https://www.freecrm.com/index.html?e=2"/>
-    <parameter name="username" value="Iphone"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.TestCasesExecution.LoginPageTest">
+      <class name="com.TestNGListeners.FirstScript">
         <methods>
-          <include name="verifyLoginIN" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="breakDown"/>
         </methods>
-      </class> <!-- com.TestCasesExecution.LoginPageTest -->
+      </class> <!-- com.TestNGListeners.FirstScript -->
     </classes>
-  </test> <!-- TestNGParamtersExecution(failed) -->
-</suite> <!-- Failed suite [ParamtersExecutionSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.TestCasesExecution.LoginPageTest">
+      <class name="com.TestNGListeners.FirstScript">
         <methods>
-          <include name="verifyLoginIN"/>
-          <include name="verifyLoginTitle"/>
-          <include name="ValidateCRMTitle"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.TestCasesExecution.LoginPageTest -->
+      </class> <!-- com.TestNGListeners.FirstScript -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

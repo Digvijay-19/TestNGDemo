@@ -14,10 +14,7 @@ import org.testng.annotations.Test;
 public class LoginPageTest {
 	
 	static WebDriver driver;
-	
-	
-	
-	
+
 	
 	@Parameters({"url"})
 	@BeforeMethod
@@ -58,6 +55,11 @@ public class LoginPageTest {
 	public void ValidateCRMTitle(String title){
 		System.out.println(title);
 		
+	}
+	
+	@Test
+	public void pageRefreshTest(){
+		driver.navigate().refresh();
 	}
 	
    @AfterMethod
