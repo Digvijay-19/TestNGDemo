@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="password" value="Bank$123"/>
+  <parameter name="url" value="https://www.freecrm.com/index.html?e=2"/>
+  <parameter name="username" value="Iphone"/>
+  <test name="TestNGParamtersExecution(failed)">
+    <parameter name="password" value="Bank$123"/>
+    <parameter name="url" value="https://www.freecrm.com/index.html?e=2"/>
+    <parameter name="username" value="Iphone"/>
+    <classes>
+      <class name="com.TestCasesExecution.LoginPageTest">
+        <methods>
+          <include name="verifyLoginIN"/>
+          <include name="setUp"/>
+          <include name="breakDown"/>
+        </methods>
+      </class> <!-- com.TestCasesExecution.LoginPageTest -->
+    </classes>
+  </test> <!-- TestNGParamtersExecution(failed) -->
+</suite> <!-- Failed suite [Suite] -->

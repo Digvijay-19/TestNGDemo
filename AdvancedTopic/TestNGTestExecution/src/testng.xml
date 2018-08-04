@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ParamtersExecutionSuite" parallel="false">
+
+
+
+
+
+  <test name="TestNGParamtersExecution">
+  
+  
+  
+  <parameter name = "url"  value="https://www.freecrm.com/index.html?e=2"/>
+  <parameter name = "username"  value="Iphone"/>
+  <parameter name = "password"  value="Bank$123"/>
+   <parameter name ="title"  value="#1 Free CRM software in the cloud for sales and service"/>
+  
+  
+ 
+ 
+    <classes>
+      <class name="com.TestCasesExecution.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
